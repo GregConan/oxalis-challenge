@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oxalis-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Greg Conan <gregmconan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gconanpy = {git = "https://github.com/GregConan/gconanpy.git", rev = "v0.4.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
