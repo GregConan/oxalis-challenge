@@ -7,7 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-gconanpy = {git = "https://github.com/GregConan/gconanpy.git", rev = "v0.4.3"}
+inflection = "0.5.1"
+pandas = "2.2.3"
 
 
 [build-system]
