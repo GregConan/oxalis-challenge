@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oxalis-challenge"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Greg Conan <gregmconan@gmail.com>"]
 readme = "README.md"
