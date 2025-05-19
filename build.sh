@@ -10,4 +10,4 @@ cd dbt/oxalis_challenge;
 poetry run dbt run;
 
 # Create documentation showing data flow
-poetry run dbt docs generate;
+poetry run dbt docs generate --static --write-json --print;
