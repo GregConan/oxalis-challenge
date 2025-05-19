@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oxalis-challenge"
-version = "0.1.5"
+version = "0.1.6"
 description = "Sales data cleaning, ELT, and analysis coding challenge for Oxalis"
 authors = ["Greg Conan <gregmconan@gmail.com>"]
 package-mode=false

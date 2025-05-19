@@ -1,5 +1,14 @@
 # Oxalis Coding Assessment
 
+## Introduction
+
+This project was created as a take-home coding assessment for Oxalis. It consists of an end-to-end data pipeline with the following components:
+
+1. Import sales data from `example_sales_data.csv` into Python.
+1. Clean and validate the sales data, standardizing the format and filling in missing data where possible.
+1. Load the sales data into a PostgreSQL database.
+1. Create dbt models transforming and then aggregating the data to produce potentially useful insights.
+
 ## Ideal Features
 
 Below is an incomplete list of features that I would add to this project if I expected to deliver it to clients for their use.
@@ -9,7 +18,7 @@ Below is an incomplete list of features that I would add to this project if I ex
 1. Automatically test all components of the Python code using (e.g.) a `pytest` framework.
 1. Add inline comments and complete docstrings to all Python scripts (in a manner similar to my personal toolbox, ["gconanpy"](https://github.com/GregConan/gconanpy)).
 1. Modify `oxalis_challenge/data_cleaners.py` to handle multiple transactions per date.
-1. Modify `oxalis_challenge/psql_loaders.py` to allow incremental loading.
+1. Modify `oxalis_challenge/psql_loaders.py` to 
 
 ## Usage
 
@@ -47,7 +56,7 @@ For a full list of requirements, see `requirements.txt` and `pyproject.toml` in 
 ├── README.md
 ├── app.py
 ├── data/
-│   └── example_sales_data.csv  (REQUIRED BUT NOT INCLUDED)
+│   └── example_sales_data.csv
 ├── dbt/
 │   └── oxalis_challenge/
 │       ├── README.md

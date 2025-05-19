@@ -7,6 +7,7 @@ poetry run python app.py data/example_sales_data.csv;
 cd dbt/oxalis_challenge;
 
 # Setup dbt and build data models
+poetry run dbt test;
 poetry run dbt run;
 
 # Create documentation showing data flow
