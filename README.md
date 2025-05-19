@@ -47,7 +47,7 @@ For a full list of requirements, see `requirements.txt` and `pyproject.toml` in 
 ├── README.md
 ├── app.py
 ├── data/
-│   └── example_sales_data.csv
+│   └── example_sales_data.csv  (REQUIRED BUT NOT INCLUDED)
 ├── dbt/
 │   └── oxalis_challenge/
 │       ├── README.md
