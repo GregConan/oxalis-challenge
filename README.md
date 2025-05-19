@@ -42,6 +42,23 @@ Below is an incomplete list of features that I would add to this project if I ex
 
 ## Data Model
 
+### Data Tables
+
+#### `raw_transaction`
+
+| column_name | data_type |
+|:-:|:-:|
+| quantity       | bigint |
+| transaction_id | bigint |
+| discount       | double |
+| date           | timestamp |
+| price          | double |
+| store_id       | bigint |
+| region         | text |
+| product_name   | text |
+| customer_type  | text |
+| payment_method | text |
+
 ### Lineage Graph
 
 ![Data Models Lineage Graph](lineage_graph_screenshot_2025-05-19.png)
