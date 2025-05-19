@@ -1,0 +1,3 @@
+models:
+  - name: int_ledger__transactions
+    description: "Transactions from sales data"

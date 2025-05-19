@@ -1,0 +1,5 @@
+version: 1
+
+models:
+  - name: fct_ledger__transactions
+    description: "Transactions from sales data"

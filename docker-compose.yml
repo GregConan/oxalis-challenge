@@ -1,13 +1,13 @@
-version: "3.9"
-
 services:
   app:
     build:
-      context: ..
-      dockerfile: .devcontainer/Dockerfile
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://postgres:postgres@db:5432/postgres
     volumes:
-      - ../..:/workspaces:cached
-    env_file: ${USERPROFILE}/.tokens/.oxalis.env
+      - .:/app
+    # env_file: ${USERPROFILE}/.tokens/.oxalis.env
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
     # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.

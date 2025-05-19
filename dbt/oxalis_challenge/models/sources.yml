@@ -1,0 +1,39 @@
+sources:
+  - name: ledger
+    description: "Sales data"
+    database: postgres
+    schema: public
+    tables:
+      - name: transaction
+        identifier: raw_transaction
+        description: "Raw sales transaction data"
+        columns:
+          - name: date
+            description: "The date on which the transaction was completed"
+            data_type: timestamp
+            data_tests:
+              - not_null
+          - name: store_id
+            description: "Store identification number"
+            data_type: bigint
+          - name: quantity
+            data_type: bigint
+          - name: price
+            data_type: double precision
+          - name: transaction_id
+            description: "Unique transaction identification number"
+            data_type: bigint
+            data_tests: 
+              - unique
+              - not_null
+          - name: discount
+            data_type: double precision
+          - name: product_name
+            data_type: text
+          - name: payment_method
+            data_type: text
+          - name: region
+            data_type: text
+          - name: customer_type
+            data_type: text
+        

@@ -91,6 +91,7 @@ class SalesData:
 
         # TODO EXPLICITLY DOCUMENT ASSUMPTION THAT NaN => QTY=1, DISCOUNT=0
         self.df.fillna({QTY: 1, DISCOUNT: 0.0}, inplace=True)
+        self.change_col_dtype(QTY, int)
 
         for col_name in ID_COLS:
             self.change_col_dtype(col_name, int)

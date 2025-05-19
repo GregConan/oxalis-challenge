@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "oxalis-challenge"
-version = "0.1.3"
-description = ""
+version = "0.1.4"
+description = "Sales data cleaning, ELT, and analysis coding challenge for Oxalis"
 authors = ["Greg Conan <gregmconan@gmail.com>"]
-readme = "README.md"
+package-mode=false
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -11,6 +11,7 @@ inflection = "^0.5.1"
 pandas = "^2.2.3"
 dbt-core = "^1.9.4"
 dbt-postgres = "^1.9.0"
+sqlalchemy = "^2.0.41"
 
 
 [build-system]
