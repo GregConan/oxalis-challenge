@@ -9,7 +9,7 @@ Below is an incomplete list of features that I would add to this project if I ex
 1. Automatically test all components of the Python code using (e.g.) a `pytest` framework.
 1. Add inline comments and complete docstrings to all Python scripts (in a manner similar to my personal toolbox, ["gconanpy"](https://github.com/GregConan/gconanpy)).
 1. Modify `oxalis_challenge/data_cleaners.py` to handle multiple transactions per date.
-1. Modify `oxalis_challenge/psql_loaders.py` to 
+1. Modify `oxalis_challenge/psql_loaders.py` to allow incremental loading.
 
 ## Usage
 
