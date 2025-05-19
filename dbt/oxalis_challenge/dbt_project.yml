@@ -31,8 +31,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   oxalis_challenge:
-    # Config indicated by + and applies to all files under models/example/
-    staging:
-      +materialized: view
+    # Config indicated by + and applies to all files under models/
     marts:
+      +materialized: view
+    report:
       +materialized: view

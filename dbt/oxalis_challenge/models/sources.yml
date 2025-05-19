@@ -16,10 +16,16 @@ sources:
           - name: store_id
             description: "Store identification number"
             data_type: bigint
+            data_tests:
+              - not_null
           - name: quantity
             data_type: bigint
+            data_tests:
+              - not_null
           - name: price
             data_type: double precision
+            data_tests:
+              - not_null
           - name: transaction_id
             description: "Unique transaction identification number"
             data_type: bigint
@@ -28,12 +34,22 @@ sources:
               - not_null
           - name: discount
             data_type: double precision
+            data_tests:
+              - not_null
           - name: product_name
             data_type: text
+            data_tests:
+              - not_null
           - name: payment_method
             data_type: text
+            data_tests:
+              - not_null
           - name: region
-            data_type: text
+            data_type: 
+            data_tests:
+              - not_null
           - name: customer_type
             data_type: text
+            data_tests:
+              - not_null
         
