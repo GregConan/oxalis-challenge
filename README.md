@@ -13,12 +13,14 @@ This project was created as a take-home coding assessment for Oxalis. It consist
 
 ### Requirements
 
-- dbt
-- Docker
+- [dbt Core](https://docs.getdbt.com/guides/manual-install?step=1)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 - Git
 - Pip
-- Python 3.10+
-- Python-Poetry
+1. [Python v3.10+](https://www.python.org/downloads/release/python-31014/)
+1. [Python-Poetry](https://python-poetry.org/)
+1. [NumPy](https://numpy.org/install/)
+1. [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
 For a full list of requirements, see `requirements.txt` and `pyproject.toml` in this directory.
 
