@@ -9,17 +9,6 @@ This project was created as a take-home coding assessment for Oxalis. It consist
 1. Load the sales data into a PostgreSQL database.
 1. Create dbt models transforming and then aggregating the data to produce potentially useful insights.
 
-## Ideal Features
-
-Below is an incomplete list of features that I would add to this project if I expected to deliver it to clients for their use.
-
-1. Write additional explanatory documentation, especially installation and usage details.
-1. Automatically generate a dummy sales data file so that the user can clone the repository and run the entire container without already having the required `example_sales_data.csv` file.
-1. Automatically test all components of the Python code using (e.g.) a `pytest` framework.
-1. Add inline comments and complete docstrings to all Python scripts (in a manner similar to my personal toolbox, ["gconanpy"](https://github.com/GregConan/gconanpy)).
-1. Modify `oxalis_challenge/data_cleaners.py` to handle multiple transactions per date.
-1. Modify `oxalis_challenge/psql_loaders.py` to 
-
 ## Usage
 
 ### Requirements
@@ -40,7 +29,16 @@ For a full list of requirements, see `requirements.txt` and `pyproject.toml` in 
 1. Run `bash run.sh` from within this top-level directory to build container and models.
 1. Open `dbt/oxalis_challenge/target/static_index.html` in your browser to interactively view data models and lineage graph.
 
-## Running the Environment
+## Ideal Features
+
+Below is an incomplete list of features that I would add to this project if I expected to deliver it to clients for their use.
+
+1. Write additional explanatory documentation, especially installation and usage details.
+1. Automatically generate a dummy sales data file so that the user can clone the repository and run the entire container without already having the required `example_sales_data.csv` file.
+1. Automatically test all components of the Python code using (e.g.) a `pytest` framework.
+1. Add inline comments and complete docstrings to all Python scripts (in a manner similar to my personal toolbox, ["gconanpy"](https://github.com/GregConan/gconanpy)).
+1. Modify `oxalis_challenge/data_cleaners.py` to handle multiple transactions per date.
+1. Modify `oxalis_challenge/psql_loaders.py` to allow incremental loading.
 
 ## Data Model
 
